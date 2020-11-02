@@ -16,7 +16,7 @@ nfa = NFA(
 )
 
 if __name__ == '__main__':
-    if nfa.accepts_input('0000'):
+    if nfa.accepts_input('001100'):
         print('accepted')
     else:
         print('rejected')
